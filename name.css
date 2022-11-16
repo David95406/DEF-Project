@@ -1,7 +1,6 @@
 body{
-    margin: 0px 20px;
+    margin: 40px 40px;
     color: navy;
-    background-image: url('kepek/fej1.jpg');
 }
 
 h2{
@@ -56,15 +55,6 @@ ol.szakasz li:before {
     padding-right: 10px;
     border-bottom: 2px solid red;
     padding-top: 50px;
-}
-
-ol.helyezes li:before {
-    content: 'hely: ';
-    counter-increment: item;
-    margin-left: -20px;
-    padding-left: 20px;
-    padding-right: 10px;
-    padding-top: 10px;
 }
 
 input[type=range]{
